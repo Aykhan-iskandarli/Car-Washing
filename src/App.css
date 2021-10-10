@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.d-flex {
+  display: flex !important;
+}
+.w-full {
+  width: 100% !important;
+}
+
+.justify-center {
+  display: flex;
+  justify-content: center;
+}
+
+.justify-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.justify-around {
+  display: flex;
+  justify-content: space-around;
+}
+.justify-evenly {
+  display: flex;
+  justify-content: space-evenly;
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex !important;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.col {
+  width: 100%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.333333%;
+}
+.col-6 {
+  width: 50%;
+}
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.align-center {
+  display: flex;
+  align-items: center;
+}
+
+.outline-none {
+  outline: none;
+}
+
+.mr {
+  margin-right: 5px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mt-4 {
+  margin-top: 40px;
+}
+
+.mt-3 {
+  margin-top: 30px;
+}
+
+.section_page a {
+  
+  color: #fff;
+  font-size: 25px;
+  transition: all 0.5s ease;
+}
+.section_page a:hover {
+  color: crimson;
+}
+.section_page span{
+
+  color: #fff;
+  font-size: 25px;
+}
+.section_page b{
+  margin: 0 10px;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.section_page h1{
+  color: #fff;
+  margin: 20px 0;
+  position: relative;
+  text-align: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+
+.section_page h1:after{
+ content: "";
+ position: relative;
+ left: 0;
+ width: 50%;
+ display: flex;
+ margin: 10px 0;
+ justify-content: center;
+ height: 2px;
+ background: #fff;
+}

@@ -1,0 +1,103 @@
+.plan_section{
+    margin: 100px 0;
+    width: 100%;
+}
+.plan h3{
+    color: crimson;
+    margin: 20px 0;
+    position: relative;
+   
+}
+.plan h3:after{
+    content: "";
+    position: absolute;
+    top: 30px;
+    left: 40%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    height: 2px;
+    background-color: crimson;
+    display: block;
+}
+.plan h1{
+    color: #202c45;
+    margin: 40px 0;
+}
+
+
+.cards{
+    width: 100%;
+    display: flex;
+    margin: 20px 0;
+}
+.card{
+    border-radius: 5px;
+    padding: 20px;
+   
+    width: 300px;
+    height: 100%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+
+.plan_title {
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin: 10px 0;
+    font-weight: 700;
+    color: #202c45;
+}
+
+.plan_price{
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin: 10px 0;
+    font-weight: 700;
+    color: #202c45;
+    position: relative;
+}
+.plan_price span{
+    font-size: 16px;
+   position: absolute;
+   padding: 5px 0;
+}
+
+
+.plan_package span{
+    padding: 10px 0;
+}
+.plan_package span svg{
+   color: green;
+}
+
+.btn-plan{
+    background-color: #202c45;
+    color: #fff;
+    border-radius: 8px;
+    transition: all .5s ease;
+}
+.text-red{
+    color: crimson !important;
+}
+.red{
+    background-color: crimson !important;
+}
+.btn-plan:hover{
+    background-color: crimson;
+}
+
+@media only screen and (max-width: 1040px) {
+.cards{
+    flex-direction: column;
+}
+.card:nth-child(2){
+    margin: 10px 0;
+    margin-top: 40px;
+}
+.card{
+    width: 100%;
+}
+
+}
+

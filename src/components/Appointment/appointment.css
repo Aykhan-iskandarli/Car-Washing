@@ -1,0 +1,146 @@
+.appointment_section {
+  margin: 100px 0;
+}
+
+.appointment h3 {
+  color: crimson;
+  margin: 20px 0;
+}
+.appointment h3:after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 30%;
+  height: 2px;
+  background: crimson;
+  margin: 20px 0;
+}
+
+.appointment_title {
+  position: relative;
+}
+
+.appointment h1 {
+  color: #202c45;
+  margin: 20px 0;
+}
+.appointment {
+  width: 100%;
+}
+
+.appointment_icon {
+  color: crimson;
+  font-size: 45px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  position: relative;
+}
+.appointment_icon svg{
+ 
+}
+
+.appointment-text h4 {
+  color: #202c45;
+}
+
+.appointment-text p {
+  color: #a1a1a1;
+  margin: 10px 0;
+}
+
+.appointment-text span {
+  color: #4d4d4d;
+}
+
+.form {
+  padding: 20px 0;
+  background: crimson;
+  width: 90%;
+  height: 100%;
+  border-radius: 6px;
+  margin: 20px 0;
+}
+.form h5 {
+  color: #fff;
+  font-size: 28px;
+  margin: 20px 0;
+}
+.form-control {
+  border: none;
+  outline: none;
+  background: transparent;
+  border: 1px solid #fff;
+  padding: 10px 15px;
+  width: 100%;
+  margin: 5px 0;
+  border-radius: 6px;
+  color: #fff;
+
+}
+form {
+  width: 100%;
+  padding: 20px;
+}
+.form .form-control::placeholder {
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+}
+textarea {
+  resize: none;
+}
+.appointment_button {
+  margin-top: 10px;
+}
+
+.btn-app {
+  background: #fff;
+  color: crimson;
+  border-radius: 20px;
+  transition: all .5s ease;
+}
+.btn-app:hover{
+  background: #202c45;
+  color: #fff;
+}
+
+@media only screen and (max-width: 1040px) {
+  .appointment {
+    flex-direction: column;
+  }
+ 
+  .appointment_title {
+    text-align: center;
+  }
+  .appointment h3:after {
+    left: 35%;
+  }
+  .appointment h1 {
+    text-align: center;
+    font-size: 18px;
+  }
+  .appointment-text p {
+    font-size: 12px;
+  }
+  .appointment-text span {
+   font-size: 12px;
+  }
+  .appointment_icon {
+    color: crimson;
+    font-size: 25px;
+  }
+  .appointment-text h4 {
+  font-size: 12px;
+  }
+  .form{
+    margin-top: 50px  !important;
+  }
+  .form h5{
+    font-size: 24.5px;
+  }
+  .form-control{
+    font-size: 20px;
+  }
+
+}

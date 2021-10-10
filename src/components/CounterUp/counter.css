@@ -1,0 +1,64 @@
+.counterup{
+    margin-top: 20px;
+    background-color: #202c45;
+    width: 100%;
+    height: 400px;
+    color: #fff;
+}
+.counter_feature{
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.counter_icon svg{
+    font-size: 65px;
+    color: crimson;
+    margin-right: 15px;
+}
+
+
+.counter-text{
+    position: relative;
+}
+.counter-text .plus{
+    font-size: 45px;
+    color: #fff;
+    font-weight: 600;
+
+    position: absolute;
+    top: -18px;
+    left: 70px;
+}
+
+.counter-text h1{
+    font-size: 60px;
+}
+.counter-text h1:after{
+    position: absolute;
+    content: "+";
+    font-weight: 600;
+    top: 0;
+    right: -15px;
+    color: #fff;
+    font-size: 30px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+
+@media only screen and (max-width: 1040px) {
+    .counter_feature{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .counter_feature li{
+        padding: 20px 0;
+    }
+    .counterup{
+        height: 100% !important;
+    }
+}

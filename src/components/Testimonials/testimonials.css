@@ -1,0 +1,44 @@
+.testimonials_section {
+  margin: 100px 0;
+}
+
+.testimonials_title h3 {
+  position: relative;
+  color: crimson;
+  margin: 20px 0;
+}
+.testimonials_title {
+  text-align: center;
+}
+
+.testimonials_title h3:after {
+  position: absolute;
+  content: "";
+  top: 35px;
+  left: 46%;
+  width: 8%;
+  height: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: crimson;
+}
+
+.testimonials_client h1 {
+  color: #202c45;
+  font-size: 40px;
+  margin: 20px 0;
+  margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 1040px) {
+  .testimonials_title h3:after {
+    left: 36%;
+    width: 30%;
+  }
+
+  .testimonials_client h1 {
+    font-size: 30px;
+    margin-top: 30px;
+  }
+}

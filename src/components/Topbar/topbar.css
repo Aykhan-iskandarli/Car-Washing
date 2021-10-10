@@ -1,0 +1,67 @@
+.topbar {
+  width: 100%;
+  height: 70px;
+ 
+  overflow-x: hidden;
+}
+
+.logo {
+  font-size: 50px;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.logo a {
+  color: crimson;
+}
+
+.logo span {
+  color: #202c45;
+}
+
+.topbar_item li:nth-child(2) {
+  margin: 0 50px;
+}
+.topbar-text p {
+  color: #202c45;
+  font-weight: 600;
+  font-size: 18px;
+}
+.topbar_item li {
+  text-align: center;
+}
+.topbar_icon {
+  width: 40px;
+  height: 40px;
+  background-color: #202c45;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.topbar_icon svg {
+  font-size: 18px;
+}
+.topbar-text span {
+  font-size: 14px;
+  color: #969696;
+  font-weight: 400;
+}
+
+.topbar-text {
+  text-align: left;
+}
+
+@media only screen and (max-width: 1040px) {
+  .topbar_item {
+    display: none !important;
+  }
+  .logo {
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+  }
+}
